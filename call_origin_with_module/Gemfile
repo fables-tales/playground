@@ -2,3 +2,12 @@ source 'https://rubygems.org'
 
 # Specify your gem's dependencies in call_origin_with_module.gemspec
 gemspec
+
+gem "rspec"         , :path => "/Users/sam/dev/rspec/rspec-dev/repos/rspec"
+gem "rspec-core"         , :path => "/Users/sam/dev/rspec/rspec-dev/repos/rspec-core"
+gem "rspec-expectations" , :path => "/Users/sam/dev/rspec/rspec-dev/repos/rspec-expectations"
+gem "rspec-mocks"        , :path => "/Users/sam/dev/rspec/rspec-dev/repos/rspec-mocks"
+gem "rspec-support"      , :path => "/Users/sam/dev/rspec/rspec-dev/repos/rspec-support"
+
+#gem "rspec-support"      , :path => "/Users/sam/dev/rspec/rspec-dev/repos/rspec-support"
+gem "pry"
